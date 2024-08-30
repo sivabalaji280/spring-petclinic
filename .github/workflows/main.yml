@@ -37,6 +37,6 @@ jobs:
         with:
           username: balaji36490
           password: Balaji@280
-      - name: Build Docker image
-        run: |
-          docker buildx build --tag balaji36490/petclinic:latest . --push
+      # - name: Build Docker image
+      #   run: |
+      #     docker buildx build --tag balaji36490/petclinic:latest . --push
